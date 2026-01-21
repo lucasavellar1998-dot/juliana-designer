@@ -37,16 +37,18 @@
     }
     .produtos {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
       justify-items: center;
     }
     .produto {
       background: #fff;
       border-radius: 18px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-      padding: 20px;
+      padding: 25px 20px;
       text-align: center;
-      max-width: 360px;
+      width: 100%;
+      max-width: 300px;
     }
     .produto img {
       width: 100%;
@@ -85,41 +87,29 @@
 <body>
 
   <header>
+    <img src="juliana.jpg" alt="Foto Juliana Designer" style="width:140px;height:140px;border-radius:50%;object-fit:cover;margin-bottom:20px;box-shadow:0 6px 18px rgba(0,0,0,0.15);" />
     <h1>Juliana Designer</h1>
     <p>Criações exclusivas que valorizam sua identidade, estilo e presença digital.</p>
   </header>
 
   <section class="container">
-    <h2 style="text-align:center; margin-bottom:30px;">Catálogo</h2>
+    <h2 style="text-align:center; margin-bottom:40px;">Me encontre online</h2>
 
     <div class="produtos">
       <div class="produto">
-        <img src="https://via.placeholder.com/400x400" alt="Produto destaque">
-        <h3>Produto em Destaque</h3>
-        <p>Peça exclusiva criada com atenção aos detalhes, pensada para quem busca elegância e personalidade.</p>
-        <a class="btn-whatsapp" href="https://wa.me/5521994301622?text=Olá,%20tenho%20interesse%20no%20produto%20em%20destaque" target="_blank">Comprar pelo WhatsApp</a>
-      </div>
-    </div>
-
-      <div class="produto">
-        <img src="https://via.placeholder.com/300x300" alt="Produto 2">
-        <h3>Produto 2</h3>
-        <p>Descrição breve do produto.</p>
-        <a class="btn-whatsapp" href="https://wa.me/5521994301622?text=Olá,%20tenho%20interesse%20no%20Produto%202" target="_blank">Comprar no WhatsApp</a>
+        <h3>Instagram</h3>
+        <a class="btn-whatsapp" href="https://www.instagram.com/_juliana_designer?igsh=NndzcjZ3cjIza2xk&utm_source=qr" target="_blank">@_juliana_designer</a>
       </div>
 
       <div class="produto">
-        <img src="https://via.placeholder.com/300x300" alt="Produto 3">
-        <h3>Produto 3</h3>
-        <p>Descrição breve do produto.</p>
-        <a class="btn-whatsapp" href="https://wa.me/5521994301622?text=Olá,%20tenho%20interesse%20no%20Produto%203" target="_blank">Comprar no WhatsApp</a>
+        <h3>TikTok</h3>
+        <a class="btn-whatsapp" href="https://www.tiktok.com/@juliana.santos0191?_r=1&_t=ZS-93GXmoJwbFn" target="_blank">@juliana.santos0191</a>
       </div>
-    </div>
 
-    <div class="cta">
-      <h2>Fale comigo agora</h2>
-      <p>Atendimento rápido e personalizado pelo WhatsApp</p>
-      <a class="btn-whatsapp" href="https://wa.me/5521994301622" target="_blank">Chamar no WhatsApp</a>
+      <div class="produto">
+        <h3>WhatsApp</h3>
+        <a class="btn-whatsapp" href="https://wa.me/5521994301622" target="_blank">Chamar no WhatsApp</a>
+      </div>
     </div>
   </section>
 
@@ -128,7 +118,9 @@
     <p>© 2026 Juliana Designer - Todos os direitos reservados</p>
   </footer>
 
-  <a href="https://wa.me/5521994301622" target="_blank" style="position:fixed;bottom:20px;right:20px;background:#25d366;color:#fff;padding:15px 18px;border-radius:50%;font-size:20px;text-decoration:none;box-shadow:0 4px 10px rgba(0,0,0,0.3);">💬</a>
+  
+
+  <a href="https://wa.me/5521994301622?text=Vamos%20agendar%3F" target="_blank" style="position:fixed;bottom:20px;right:20px;background:#25d366;color:#fff;padding:16px 18px;border-radius:50%;font-size:22px;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,0.25);z-index:999;">💬</a>
 
 </body>
 </html>
